@@ -1,33 +1,20 @@
-<h1 align="center">👋 Hi, I'm Light-Towers</h1>
-<h3 align="center">AI Agent · LLM · Backend Architecture</h3>
+### Hi, I'm Light-Towers
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI_Agent-412991?style=flat&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-FF6F00?style=flat&logo=elasticsearch&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
-</p>
+10 年后端与数据工程经验（Java → 大数据 → AI 平台），现专注 AI Agent 平台与工程化落地。
 
----
+我相信「已实现 ≠ 已接线」——把系统边界状态讲清楚，比宣称「生产级」更有价值。
 
-<p align="center">
-  🔭 Building personal AI knowledge system · 🌱 Deep-diving into Agent engineering · 👯 Looking for open source collaboration
-</p>
+#### 在维护的项目
 
----
+| 项目 | 一句话 |
+|---|---|
+| [agent-platform](https://github.com/Light-Towers/agent-platform) | 统一 Agent 平台：LangGraph Supervisor 编排 + 搜索 / RAG / Text-to-SQL / MCP 四链路；uv workspace monorepo；CI 评测门禁；README 含能力现状四档交底 |
+| [reliable-agent](https://github.com/Light-Towers/reliable-agent) | 框架无关的 LLM/Agent 生产可靠性原语：tracing / guardrails / 检索质量指标 / 多模型客户端 / 工具注册与隔离调用 |
+| [handle_video](https://github.com/Light-Towers/handle_video) | GPU 视频超分工具集（Real-ESRGAN + 双三次）：断点续传、音视频合并、编码兼容优化 |
 
-### 📊 GitHub Stats
+#### 技术栈
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Light-Towers&show_icons=true&theme=vue-dark&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Light-Towers&layout=compact&theme=vue-dark&hide_border=true" width="49%" />
-</p>
+Python / Java · LangGraph / DeepAgents · RAG（pgvector + BM25 + RRF）· Text-to-SQL · MCP
+PostgreSQL / Milvus / Qdrant / Elasticsearch · Docker / K8s / CI 门禁 · OTel / Langfuse
 
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Light-Towers&color=58a6ff&style=flat" />
-</p>
+> 仓库 README 里的「能力现状四档交底」是有意为之：哪些默认开、哪些 opt-in、哪些还是骨架，写在明处。
